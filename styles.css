@@ -1,0 +1,98 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+#buttons-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#result {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+#history {
+    margin-top: 20px;
+    text-align: left; /* Align the text within the history section to the left */
+}
+
+#historyList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#historyList li {
+    margin-bottom: 5px;
+}
+
+#clear-history-button {
+    float: right;
+    margin-right: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+    transform: scale(1.5); /* Increase the size of radio buttons */
+}
+
+footer {
+    background-color: #065f9bb2; /* Dark gray background color */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Style links in the footer */
+footer a {
+    color: #fff; /* White text color */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ffd700; /* Change color on hover to gold */
+}
+
+
+

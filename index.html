@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Answer Table</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 style="text-align: center;">IELTS Listening Evaluation Sheet</h1>
+<table id="answerTable">
+    <thead>
+        <tr>
+            <th style="width: 5%;">Q</th>
+            <th>Answer</th>
+            <th>Evaluation</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- JavaScript will dynamically generate rows -->
+    </tbody>
+</table>
+
+<div id="buttons-container">
+    <button onclick="clearAnswers()" class="button">Clear Answers</button>
+    <button onclick="checkAnswers()" class="button">Check</button>
+    <button onclick="saveResult()" class="button">Result</button>
+    <span id="result"></span>
+    <span id="band-score"></span>
+    <button onclick="clearHistory()" class="button" id="clear-history-button">Clear History</button>
+</div>
+
+
+
+<div id="history">
+    <h2>History</h2>
+    <ul id="historyList"></ul>
+</div>
+
+<footer>
+    <p>Developed by: Krish Patel</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+<!-- <h1 style="text-align: center;">IELTS Listening Evaluation Sheet</h1>-->
